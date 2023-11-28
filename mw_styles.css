@@ -1,0 +1,104 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 2
+   
+   Bike the Mountains Tour Style Sheet
+   Author:Tristan Poss
+   Date:  9/4/2023
+   
+   Filename: mw_styles.css
+
+*/
+
+
+/* Structural Styles */
+html {
+	background-color: #ADBDE3;
+}
+body{ 
+	background-color: rgb(227, 210, 173);
+	font-family: "Century Gothic", sans-serif;
+}
+body > footer{
+	background-color: rgb(208, 184, 109);
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+body > footer address{
+	font-style: normal;
+	font-size: 0.9em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+/* Heading Styles */
+
+h1, h2{
+	font-weight: normal;
+}
+
+/* Navigation Styles */
+
+nav ul{
+	list-style-type: none;
+	line-height: 2em;
+	font-size: 0.9em;
+}
+nav a{
+	text-decoration: none;
+	color: #2B3B7D;
+}
+nav > ul > a:hover, nav > ul a:active {
+	color: rgb(212, 35, 35);
+	text-decoration: underline;
+}
+/* Article Styles */
+article#tour_summary h1{
+	font-size: 2.2em;
+	letter-spacing: 0.2em;
+}
+article#tour_summary p{
+	font-size: 1.1em;
+	color: rgb(0, 0, 0)
+}
+article#tour_summary p:first-of-type:first-line {
+	font-size: 1.3em;
+	font-variant: small-caps;
+}
+
+
+/* Aside Styles */
+aside#tour_itinerary h1{
+	font-size: 1.2em;
+	text-align: center;
+	background-color: #bfc3d0;
+	color: #FFFFFF;
+}
+aside#tour_itinerary h2{
+	font-size: 0.9em;
+}
+aside#tour_itinerary p{
+	font-size: 0.7em;
+}
+aside#tour_itinerary h2,p:nth-of-type(even){
+	color: #686c4c;
+}
+aside#tour_itinerary h2,p:nth-of-type(odd){
+	color: #4040ff;
+}
+
+/* Blockquote Styles */
+blockquote{
+	background-color: hsl(222, 59%, 53%);
+	opacity: 0.65;
+}
+blockquote p{
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #ffffff;
+}
